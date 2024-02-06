@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Products from './components/Products'
+import Products from './db/Products'
+import Navbar from './navbar/navbar'
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <h1>Greyshopper</h1>
 
       <Products />
+      <Navbar />
     </>
   )
 }
